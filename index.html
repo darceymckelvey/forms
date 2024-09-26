@@ -17,20 +17,21 @@
          type="text"
          name="firstname"
          placeholder="first name"
+         required
      />
  
      <br />
  
      <!-- type number -->
       <label for="age">Age:</label>
-      <input type="number" id="age" placeholder="age">
+      <input type="number" id="age" placeholder="age" min="18" max="120">
  
       <br />
  
       <!-- type radio -->
        <label for="shirt_size">Shirt Size:</label>
        <br />
-       <input type="radio" name="shirt_size" value="small" />Small <br />
+       <input type="radio" name="shirt_size" value="small" checked/>Small <br />
        <input type="radio" name="shirt_size" value="medium" />Medium<br />
        <input type="radio" name="shirt_size" value="large" />Large <br />
  
@@ -47,9 +48,13 @@
         <!-- type checkbox -->
          <label for="colors">Colors:</label>
          <br />
-         <input type="checkbox" name="colors" value="blue" /> Blue <br />
+         <input type="checkbox" name="colors" value="blue" checked/> Blue <br />
          <input type="checkbox" name="colors" value="red" /> Red <br />
          <input type="checkbox" name="colors" value="purple" /> Purple <br />
+
+         <!-- type email -->
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" placeholder="example@mail.com" required> <br />
  
          <!-- submitting the form -->
           <input type="submit" value="Order Shirt" />
