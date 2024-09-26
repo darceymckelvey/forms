@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms & Input Elements</h1>
+
+    <!-- input elements can be used to collect information -->
+     <!-- the for attribute is used to assciote something with an id of same name. this allway user to clickl on the label first name and the cursor will auto go to the input label -->
+      <!-- type text -->
+     <label for="firstname">Firstname:</label>
+     <input 
+        id="firstname"
+        type="text"
+        name="firstname"
+        placeholder="first name"
+    />
+
+    <br />
+
+    <!-- type number -->
+     <label for="age">Age:</label>
+     <input type="number" id="age" placeholder="age">
+
+     <br />
+
+     <!-- type radio -->
+      <label for="shirt_size">Shirt Size:</label>
+      <br />
+      <input type="radio" name="shirt_size" value="small" />Small <br />
+      <input type="radio" name="shirt_size" value="medium" />Medium<br />
+      <input type="radio" name="shirt_size" value="large" />Large <br />
+
+      <!-- type dropdown list using the select element -->
+       <label for="brand">Brand:</label>
+       <select name="brand" id="brand">
+         <option value="nike">Nike</option>
+         <option value="adidas">Adidas</option>
+         <option value="puma">Puma</option>
+       </select>
+
+       <br />
+
+       <!-- type checkbox -->
+        <label for="colors">Colors:</label>
+        <br />
+        <input type="checkbox" name="colors" value="blue" /> Blue <br />
+        <input type="checkbox" name="colors" value="red" /> Red <br />
+        <input type="checkbox" name="colors" value="purple" /> Purple <br />
+</body>
+</html>
