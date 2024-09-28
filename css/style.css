@@ -1,0 +1,17 @@
+/* p here is a selector that matches all <p> elements */
+/* Element Selector - specify an element */
+p {
+    color: red;
+}
+
+label {
+    color: rgb(77, 213, 213);
+}
+
+/* A selector is a pattern that matches elements in a document. */
+
+/* id selector */
+/* id matchs single element only!  */
+#firstname {
+    background-color: chocolate;
+}
